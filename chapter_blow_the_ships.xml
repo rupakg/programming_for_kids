@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter [
+<!ENTITY % allent SYSTEM "w3centities-f.ent">
+%allent;
+]>
+<chapter version="5.0" xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+
+	<title>Blow-the-ships</title>
+	<subtitle>A simple version of the famous game of batteships...</subtitle>
+      
+	<sect1>
+		<title>The Game Plan</title>
+		<para>The simple game of destroying ships on an imaginary grid. The computer puts 5 ships in a grid of 8x8 squares. 
+		The challenge for the player is to guess the correct cell which blows up the ship. A handy timer keeps track of the time
+		and calculates the player's rank.
+		</para>
+	</sect1>
+	<sect2>
+		<title>Game Rules</title>
+		<para>
+		1. The game consists of an imaginary 8x8 grid which signifies an enemy's naval base in the sea.
+		2. The grid's columns are named A, B, C, D, E, F, G, H.
+		3. The grid's rows are named 1, 2, 3, 4, 5, 6, 7, 8.
+		4. Soon after the game starts, the computer places 5 ships (1x1 each) randomly across the imaginary grid.
+		5. A timer is started to kick off the game.
+		6. The user has to guess the location of the ships by calling out an address i.e. A7 or F5 etc.
+		7. The computer responds with the following:
+			a. Hit: you have guessed the correct location, and drowned the ship.
+			b. Miss: you have incorrectly guessed a location, and hence missed the ship.
+		8. When all the 5 ships are hit, the game ends.
+		9. The game timer is stopped, and the player's rank is displayed.
+		</para>
+	</sect2>
+	<sect3>
+		<title>Program Listing</title>
+		<para>Coming soon!</para>
+	</sect3>
+	<sect4>
+		<title>Screens</title>
+		<para>Coming soon!</para>
+	</sect4>
+	<sect5>
+		<title>Next Version - Enhancements</title>
+		<para>
+		1. Flexible grid choices - 16x16 etc.
+		2. Flexible ship sizes - 3 small-x ships of 1x1, 3 small ships of 2x1, 3 medium ships of 3x1, 1 large ships of 5x1.
+		3. Score or points system.
+		4. Different difficulty levels.
+		5. Computer also specifies "warm" or "cold" hints for easy levels.
+		</para>
+	</sect5>
+</chapter>
