@@ -63,7 +63,7 @@ reference toc,title
 set       toc,title
 </xsl:param>
 
-<xsl:param name="toc.section.depth">1</xsl:param>
+<xsl:param name="toc.section.depth">0</xsl:param>
 
 <!-- fonts -->
 <xsl:param name="body.font.master">10</xsl:param>
@@ -137,7 +137,6 @@ set       toc,title
     <xsl:attribute name="wrap-option">wrap</xsl:attribute>
     <xsl:attribute name="hyphenation-character">\</xsl:attribute>
     <xsl:attribute name="font-size">8pt</xsl:attribute>
-    <xsl:attribute name="keep-together.within-column">always</xsl:attribute>
 </xsl:attribute-set>
 
 

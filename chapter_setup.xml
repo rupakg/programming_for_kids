@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter [
+<!ENTITY % allent SYSTEM "w3centities-f.ent">
+%allent;
+]>
+<chapter version="5.0" xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+      
+      <title>Getting Things Ready</title>
+      <para>In order for you to work with the games in this book, you'll need a few things set up. This chapter will help you get started.</para>
+      
+      <sect1 xml:id="sec.Installing.Ruby">
+        <title>Installing Ruby</title>
+
+        <sect2 xml:id="sec.rb.Windows">
+          <title>Windows</title>
+          <para>Download and install the Ruby Installer for Windows - <link xlink:href="http://rubyforge.org/frs/download.php/69034/rubyinstaller-1.8.7-p249-rc2.exe" />.</para>
+           
+        </sect2>
+        
+        <sect2 xml:id="sec.rb.Mac">
+          <title>Mac</title>
+          <para>If you have a Mac with Leopard or Snow Leopard, you already have everything you need to begin programming, as Ruby is already installed.</para>
+        </sect2>
+        
+        <sect2 xml:id="sec.rb.Ubuntu">
+          <title>Ubuntu</title>
+          <para>On Ubuntu, Ruby can be installed with</para>
+            <para><command>sudo apt-get install ruby-full</command></para>
+        </sect2>
+
+	<sect2 xml:id="sec.rb.Gentoo">
+          <title>Gentoo</title>
+	  <para>On Gentoo, Ruby can be installed with</para>
+	    <para><command>sudo emerge dev-lang/ruby</command></para>
+	</sect2>
+
+      </sect1>
+
+      <sect1 xml:id="sec.Installing.Python">
+        <title>Installing Python</title>
+
+        <sect2 xml:id="sec.py.Windows">
+          <title>Windows</title>
+          <para>Download and install the Python 2.6 Installer for Windows - <link xlink:href="http://python.org/ftp/python/2.6.5/python-2.6.5.msi" />.</para>
+           
+        </sect2>
+        
+        <sect2 xml:id="sec.py.Mac">
+          <title>Mac</title>
+          <para>Download and install the Python 2.6 Installer for Windows - <link xlink:href="http://python.org/ftp/python/2.6.5/python-2.6.5-macosx10.3-2010-03-24.dmg" />.</para>
+        </sect2>
+        
+        <sect2 xml:id="sec.py.Ubuntu">
+          <title>Ubuntu</title>
+          <para>Ubuntu comes with python pre-installed.</para>
+        </sect2>
+
+	<sect2 xml:id="sec.py.Gentoo">
+	  <title>Gentoo</title>
+	  <para>On Gentoo, Python can be installed with</para>
+	    <para><command>sudo emerge dev-lang/python</command></para>
+        </sect2>
+        
+      </sect1>
+
+</chapter>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter [
+<!ENTITY % allent SYSTEM "w3centities-f.ent">
+%allent;
+]>
+<chapter version="5.0" xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+
+      <title>Maze</title>
+      <sect1>
+        <title>The Game Plan</title>
+        <para>Coming Soon</para>
+      </sect1>
+      <sect1>
+        <title>Game Rules</title>
+        <para>Coming Soon</para>
+      </sect1>
+      <sect1>
+        <title>The maze</title>
+        <para>
+          Your program needs maze to run, this file provides that maze. Create the file <filename>maze.txt</filename> and create your own maze.
+        </para>
+        <para>
+          You can use our maze shown below, or add your own if you like.  Just be sure
+          to include an "S" and an "E" in the maze for the start and end points.
+        </para>
+        <programlisting language="text"><xi:include href="code/chapter_maze/maze.txt" parse="text"/></programlisting>
+      </sect1>
+      <sect1 id="code.py.maze">
+        <title>Maze Program Listing - Python</title>
+        <para>Create the file <filename>maze.py</filename> and type in this code:</para>
+        <programlisting language="python"><xi:include href="code/chapter_maze/maze.py" parse="text"/></programlisting>
+        <sect2>
+          <title>Running The Game</title>
+          <para>Type <command>python maze.py</command> to run the game!</para>
+             
+        </sect2>
+      
+      </sect1>
+</chapter>

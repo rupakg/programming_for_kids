@@ -10,7 +10,24 @@
       xmlns:mml="http://www.w3.org/1998/Math/MathML"
       xmlns:html="http://www.w3.org/1999/xhtml"
       xmlns:db="http://docbook.org/ns/docbook">
-      
+
       <title>Rock, Paper, Scissors</title>
-      <para></para>
+      <sect1>
+        <title>The Game Plan</title>
+        <para>Coming Soon</para>
+      </sect1>
+      <sect1>
+        <title>Game Rules</title>
+        <para>Coming Soon</para>
+      </sect1>
+      <sect1 xml:id="code.py.rock.paper.scissors">
+        <title>Rock Paper Scissors Program Listing - Python</title>
+        <para>Create the file <filename>rock_paper_scissors.py</filename> and type in this code:</para>
+        <programlisting language="python"><xi:include href="code/chapter_rock_paper_scissors/rock_paper_scissors.py" parse="text"/></programlisting>
+      
+        <sect2>
+          <title>Running the game</title>
+          <para>Type <command>python rock_paper_scissors.py</command> to run the game!</para>
+        </sect2>
+      </sect1>
 </chapter>
